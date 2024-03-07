@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T01:21:52.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GHy11tXh7VHaeavvZRIf" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T01:24:14.432Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Y4_zJEWGM0w72ptAeRvM" version="24.0.0" type="github">
   <diagram name="第 1 页" id="ee7YWYgeDnB8Q1HyjFBW">
     <mxGraphModel dx="823" dy="632" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="BJCaZ7cayTKSOUwX5sGd-1" value="ZK" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;textShadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;" vertex="1" parent="1">
           <mxGeometry x="176" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BJCaZ7cayTKSOUwX5sGd-2" value="监听应用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="BJCaZ7cayTKSOUwX5sGd-2" value="监听应用&lt;div&gt;元数据初始化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="176" y="313" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BJCaZ7cayTKSOUwX5sGd-5" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;textShadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
@@ -24,8 +24,35 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="BJCaZ7cayTKSOUwX5sGd-12" value="变更" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BJCaZ7cayTKSOUwX5sGd-6">
+          <mxGeometry x="0.1788" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BJCaZ7cayTKSOUwX5sGd-9" value="监听指定目录下的元数据变更" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;rotation=0;base=25;size=32;position=0.61;position2=0.95;" vertex="1" parent="1">
           <mxGeometry x="59" y="262" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BJCaZ7cayTKSOUwX5sGd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJCaZ7cayTKSOUwX5sGd-10" target="BJCaZ7cayTKSOUwX5sGd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJCaZ7cayTKSOUwX5sGd-15" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BJCaZ7cayTKSOUwX5sGd-14">
+          <mxGeometry x="-0.028" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJCaZ7cayTKSOUwX5sGd-10" value="运维/开发人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="53" y="597" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJCaZ7cayTKSOUwX5sGd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJCaZ7cayTKSOUwX5sGd-13" target="BJCaZ7cayTKSOUwX5sGd-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390.4563751220703" y="627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJCaZ7cayTKSOUwX5sGd-13" value="监听应用&lt;div&gt;元数据初始化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="189" y="597" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJCaZ7cayTKSOUwX5sGd-17" value="ZK" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;textShadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="402" y="597" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
